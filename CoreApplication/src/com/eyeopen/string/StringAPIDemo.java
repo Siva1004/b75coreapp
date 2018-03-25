@@ -29,6 +29,8 @@ public class StringAPIDemo {
 		}
 		byte[] by = s1.getBytes();
 		System.out.println(by);
-		System.out.println(s1.replace('e', 'E'));		
+		System.out.println(s1.replace('e', 'E'));	
+		System.out.println(s1.indexOf('e'));
+		System.out.println(s1.lastIndexOf('e'));
 	}
 }
